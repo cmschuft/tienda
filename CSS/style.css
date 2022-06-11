@@ -4,13 +4,40 @@
 }
 
 body {
-    background-color: #6e78a6
+    background-color: #8776e7;
 }
 
 .topline {
-    background-color: #9ea7d8;
+    display: flex;
+    justify-items: flex-end;
+    background-color: #8776e7;
+}
+
+.title {
+    margin: auto auto;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    color: aliceblue;
+}
+
+#logo {
+    margin: 0% 2%;
+    width: 10%;    
+}
+
+.arbol1 {
+    width: 10%;    
+}
+
+.arbol2 {
+    width: 10%;    
 }
 
 .navbar-custom {
     background-color: #d1d9ff;
+}
+
+.carousel {
+    margin: 0% auto;
+    width: 100%;
 }
