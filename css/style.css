@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #6351ce;
+}
+
+.topline {
+    display: flex;
+    justify-items: flex-end;
+    background-color: #6351ce;
+}
+
+.title {
+    margin: auto auto;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    color: aliceblue;
+}
+
+#logo {
+    margin: 0% 2%;
+    width: 10%;    
+}
+
+.arbol1 {
+    width: 10%;    
+}
+
+.arbol2 {
+    width: 10%;    
+}
+
+.navbar-custom {
+    background-color: #d1d9ff;
+}
+
+.carousel {
+    margin: 0% auto;
+    width: 100%;
+}
+
+.barraFooter img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.d-flex img {
+    padding-left: 2%;
+    height: 35px;
+    width: 35px;
+}
