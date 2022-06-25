@@ -37,18 +37,42 @@ body {
     background-color: #d1d9ff;
 }
 
+.ecom {
+    padding-left: 2%;
+    height: 35px;
+    width: 35px;
+}
+
 .carousel {
     margin: 0% auto;
     width: 100%;
 }
 
-.barraFooter img {
-    height: 2rem;
-    width: 2rem;
+.socialMedia {
+    background-color: #6351ce;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0% 30%;
 }
 
-.d-flex img {
-    padding-left: 2%;
-    height: 35px;
-    width: 35px;
+.imgFooter {
+    height: 2rem;
+    width: 2rem;
+    margin: 30%;
+}
+
+.cardsPosition {
+    margin: 1%;
+}
+
+.formPosition {
+    margin: 3%;
+}
+
+.form-label {
+    color: aliceblue;
+}
+
+.btn {
+    margin-top: 5%;
 }
