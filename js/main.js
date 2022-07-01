@@ -1,42 +1,30 @@
-let libro
+/* Desafio: Crear un algoritmo utilizando un ciclo */
 
-libro = "Mi Librito"
+const noShipping = ["Animales", "Productos Frágiles", "Insectos"];
 
-let otraVariable = "Mi Otro Valor"
+/* Validación por Edad */
 
-console.log ("Hola")
+let ageUser = parseInt (prompt ("Por favor ingrese su edad"));
 
-console.log (libro)
+if (ageUser >= 18) {
 
-const dia = "Jueves"
+    let nameUser = prompt ("Ingresá tu nombre");
 
-console.log (dia)
+    alert ("¡Bienvenido " + nameUser + " a Nuestra Tienda!");
 
-let mensaje = "Este es mi mensaje"
+/* Ciclo para enumerar productos */
 
-let mensaje2 = "Este es mi otro mensaje"
+            for (i=0; i < 3; i++) {
+                contNoShipping = noShipping [i];
+                alert ("Recordá que no realizamos envíos de los siguientes productos: " + contNoShipping);
+            }   
+}
 
-console.log (mensaje + " " + mensaje2)
+/* Condición para evitar la carga del sitio */
 
-mensaje2 = "Otra cosa"
+    else {
 
-console.log (mensaje2)
+        alert ("Lo siento, para ingresar debes ser mayor de edad")
 
-/* let nombre = prompt ("Decime tu Nombre")
-
-console.log (nombre)
-
-let apellido = prompt ("Decime tu Apellido")
-
-alert (apellido) */
-
-/* El prompt devuelve STRING - El parseInt lo transforma a Número */
-
-/* const num1 = parseInt (prompt ("Ingresá el Primer Número")) 
-const num2 = parseInt (prompt ("Ingresá el Segundo Número"))
-
-console.log (num1 + num2)
-
-let resultado = (num1 + num2)
-
-alert ("Hola! La suma es igual a: " + resultado + " Muchas gracias! =)") */
+        window.stop()    
+}
