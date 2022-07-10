@@ -1,6 +1,8 @@
 /* Desafio: Crear un algoritmo utilizando un ciclo */
 
 const noShipping = ["Animales", "Productos Frágiles", "Insectos"];
+let contNoShipping = 0;
+let i = 0;
 
 /* Validación por Edad */
 
