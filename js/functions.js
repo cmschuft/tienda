@@ -26,4 +26,3 @@ function validarStock(stock) {
     }
 }
 
-agregarAlCarrito("Hamaca", 2); /* Modificando el Número se ven los cambios en la consola =) */ 
