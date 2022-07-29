@@ -1,9 +1,5 @@
 /* Quinto desafio: Incorporar Eventos */
 
-/* Insertar Objetos */
-
-/* const cards = document.querySelector(".dinamicsCards"); */
-
 /* Declaración de Productos */
 
 const productos = [
@@ -35,6 +31,7 @@ const productos = [
 /* Cards Dinámicas */
 
 let cards = "";
+let carrito = [];
 
 productos.forEach((producto) => {
     const idButton = `add-carts${producto.id}`
@@ -54,17 +51,12 @@ productos.forEach((producto) => {
 
 productos.forEach((producto) => {
     const idButton = `add-carts${producto.id}`
-    document.getElementById(idButton).addEventListener('click', () => {alert("PRODUCTO AGREGADO");
+    document.getElementById(idButton).addEventListener('click', () => {
+        console.log(producto);
+        carrito.push(producto);
+        /* const nodo = event.target;
+        const idProducto = nodo.getAttribute("data-id")
+        const indiceProducto = productos.findIndex(producto => producto.id == idProducto); */
+        alert("PRODUCTO AGREGADO");
 })
 });
-
-/* 
-
-        <div class="cardsPosition row row-cols-1 row-cols-sm-4 g-5">
-            <div class="card cardsPosition">
-              <img src="../images/hamaca.jpg" class="card-img-top" alt="Hacama de Lana" style="width:100%">
-              <h3 class="card-title">Hamaca de Lana</h3>
-              <p class="price">$50.00</p>
-              <p>Se realizan a medida</p>
-              <p><button>Añadir a Carrito</button></p>
-            </div> */
