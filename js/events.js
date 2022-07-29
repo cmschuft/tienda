@@ -31,7 +31,7 @@ const productos = [
 /* Cards Dinámicas */
 
 let cards = "";
-let carrito = [];
+const carrito = [];
 
 productos.forEach((producto) => {
     const idButton = `add-carts${producto.id}`
